@@ -1,0 +1,93 @@
+GridPane{
+	-fx-background-color: black;
+	-fx-font-family: monospace;
+	-fx-hgap: 5px;
+	-fx-vgap: 5px;
+	-fx-padding: 5px 5px 5px 5px;
+}
+
+.pantallaText{
+	-fx-text-fill: #bbbbbb;
+	-fx-background-color: transparent;
+	-fx-text-alignment: right;
+	-fx-font-size: 25.0pt;
+	-fx-padding: 10px 10px 10px 10px;
+	-fx-font-weight: bold;
+	-fx-background-insets: 0px;
+}
+
+.button{
+	-fx-font-size: 16.0pt;
+	-fx-background-radius: 5em;
+	-fx-background-insets: 0px;
+	-fx-border-radius: 5em;
+}
+
+.button:focused {
+	-fx-border-color: white;
+}
+
+.button:armed {
+	-fx-border-color: yellow;
+}
+
+.number-button{
+	-fx-text-fill: white;
+	-fx-background-color: gray;
+}
+
+.number-button:hover{
+	-fx-text-fill: gray;
+	-fx-background-color: white;
+}
+
+.number-button:pressed{
+	-fx-text-fill: #bbbbbb;
+	-fx-background-color: black;
+}
+
+.restart-button{
+	-fx-text-fill: black;
+	-fx-background-color: #bbbbbb;
+}
+
+.restart-button:hover{
+	-fx-background-color: white;
+}
+
+.restart-button:pressed{
+	-fx-text-fill: #bbbbbb;
+	-fx-background-color: black;
+}
+
+.operator-button{
+	-fx-text-fill: white;
+	-fx-background-color: orange;
+}
+
+.operator-button:hover{
+	-fx-background-color: #b85f00;
+}
+
+.operator-button:hover:default{
+	-fx-background-color: red;
+}
+
+.operator-button:pressed{
+	-fx-text-fill: orange;
+	-fx-background-color: white;
+}
+
+#igual-button:default{
+	-fx-background-color: orangered;
+}
+
+
+
+
+
+
+
+
+
+
